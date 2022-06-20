@@ -1,8 +1,14 @@
-/**
- * Created by z02 on 5/24/2022.
- */
+public with sharing class HelloWorld {
+    private String greeting = 'Hello World';
+    // public variable
+    public String publicGreeting = 'public Hello World';
 
-public with sharing class HelloWorld
-{
+    public void printGreeting() {
+        System.debug(greeting);
+    }
 
+    // get an error about access modifiers:
+    // global void printPublicGreeting() {
+    //      System.debug(publicGreeting);
+    // }
 }
