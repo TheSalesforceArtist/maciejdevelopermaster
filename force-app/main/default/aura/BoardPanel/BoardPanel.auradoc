@@ -1,0 +1,10 @@
+<!--
+ - Created by Z02 on 9/7/2022.
+ -->
+
+<aura:documentation>
+    <aura:description>Documentation for BoardPanel</aura:description>
+    <aura:example name="BoardPanel" ref="BoardPanel" label="BoardPanel">
+        Example for BoardPanel
+    </aura:example>
+</aura:documentation>
